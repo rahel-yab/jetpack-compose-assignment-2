@@ -1,4 +1,4 @@
-# TODO App
+# 📃TODOList App
 
 A simple Android TODO app built with **Jetpack Compose**, **Retrofit**, and **Room** using the **MVVM** architecture pattern.
 
