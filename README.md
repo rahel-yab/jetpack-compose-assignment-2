@@ -1,6 +1,6 @@
-# 📃TODOList App
+# 📃TodoList App
 
-A simple Android TODO app built with **Jetpack Compose**, **Retrofit**, and **Room** using the **MVVM** architecture pattern.
+A simple Android TodoList app built with **Jetpack Compose**, **Retrofit**, and **Room** using the **MVVM** architecture pattern.
 
 ---
 
