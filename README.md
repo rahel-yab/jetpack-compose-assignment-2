@@ -1,44 +1,37 @@
-📝 TodoApp - Jetpack Compose TODO List
-Features 🚀
-Instant Data Display: Loads cached TODO items immediately on app launch for a seamless user experience.
+# TODO App
 
-Live Sync: Automatically fetches fresh TODO data from the JSONPlaceholder API and updates the UI.
+A simple Android TODO app built with **Jetpack Compose**, **Retrofit**, and **Room** using the **MVVM** architecture pattern.
 
-Local Persistence: Uses Room database to cache TODOs, ensuring data is available offline.
+---
 
-Clean MVVM Architecture: Clear separation of concerns with ViewModel and Repository layers.
+## Features
 
-Elegant UI with Jetpack Compose: Smooth, modern, and responsive UI with efficient scrolling using LazyColumn.
+- 🚀 **Instant Data Loading:** Shows cached TODO items immediately on app launch using Room database  
+- 🔄 **Data Synchronization:** Automatically fetches fresh TODO items from the JSONPlaceholder API and updates the local cache  
+- 📋 **Efficient List UI:** Displays a scrollable list of TODOs with their title and completion status using Jetpack Compose’s `LazyColumn`  
+- 📝 **Detail Screen:** Tap on a TODO item to view detailed information with smooth navigation between screens  
+- ⚠️ **Error Handling:** Shows error messages and retry options if the network call fails, while still displaying cached data if available  
+- 🧩 **Clean Architecture:** Uses MVVM pattern for separation of concerns and easy maintainability  
 
-Detail View: Tap any TODO item to see full details on a dedicated screen.
+---
 
-Robust Error Handling: Shows friendly messages and retry options if network calls fail.
+## Tech Stack
 
-Compose Navigation: Smooth transitions between list and detail screens with proper back navigation.
+- **UI:** Jetpack Compose  
+- **Networking:** Retrofit with Kotlin Coroutines  
+- **Local Persistence:** Room Database  
+- **Architecture:** MVVM (Model-View-ViewModel)  
+- **Navigation:** Jetpack Compose Navigation  
 
-Kotlin Coroutines: Asynchronous data loading for better performance and responsiveness.
+---
 
-Tech Stack 🔧
-Kotlin & Jetpack Compose
+## Getting Started
 
-Retrofit for network calls
+1. **Clone the repository:**
 
-Room for local database caching
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+2. **Open the project in Android Studio**
+3. **Build and run the app on an emulator or physical device**
 
-MVVM architectural pattern
-
-Kotlin Coroutines & Flow for reactive programming
-
-Compose Navigation for in-app navigation
-
-How to Use ⚙️
-Clone the repo
-
-Open the project in Android Studio
-
-Build and run the app on an emulator or device
-
-The app loads cached TODOs instantly and refreshes from the network
-
-Tap any TODO item to view its details
 
